@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AftergenesisBlock</title>
-   
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
+    <link rel="stylesheet" href="./css/tablet.css"z media="(min-width: 930px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <header>
-        <img src="./assets/img/aftergenesisblock-logo.png" alt="logo-aftergenesisblock">
+        <!-- <img src="./assets/" alt="logo-aftergenesisblock"> -->
         <div class="header--title-container">
             <h1>AFTER GENESIS BLOCK
             </h1>
             <p>El próximo paso para la historia de la humanidad.
             </p>
       
-            <a href="#plans" class="header--button">Conoce nuestros planes<span></span></a>
+            <a href="#plans" class="header--button">Conoce la historia<span></span></a>
         </div>
     </header>
         <main>
             <section class="main-exchange-container">
                 <div class="backgroundImg"></div>
                 <div class="main-exchange-container--title">
-                    <h2>Aca puedes verificar los costos de todas las criptomonedas.</h2>
-                    <p>Información en tiempo real.
+                    <h2>La historia de como una tecnologia revolucionaria podria 
+                        cambiarlo todo.</h2>
+                    <p>Información en tiempo real de las principales criptomonedas.
                     </p>
                 </div>
                 
@@ -41,32 +43,39 @@
                     <table>
                         <tr>
                             <td class="table__top-left">Bitcoin</td>
-                            <td class="table__top-right table__right">$1.96 <span class="down"></span> </td>
+                            <td class="table__top-right table__right">$<span id="bitcoin"></span> </td>
                         </tr>
                         <tr>
                             <td>Etherium</td>
-                            <td class="table__right">$0.07 <span class="up"></span> </td>
+                            <td class="table__right">$<span id="ethereum"></span> </td>
                         </tr>
                         <tr>
-                            <td>Ripple</td>
-                            <td class="table__right">$2.15 <span class="down"></span> </td>
+                            <td>Tether</td>
+                            <td class="table__right">$<span id="tether"></span> </td>
                         </tr>
                         <tr>
-                            <td class="table__bottom-left">Stellar</td>
-                            <td class="table__bottom-right table__right">$4.96 <span class="down"></span> </td>
+                            <td class="table__bottom-left">BNB</td>
+                            <td class="table__bottom-right table__right">$<span id="binancecoin"></span> </td>
                         </tr>
                     </table>
                 </div>
                 <div class="currency-table--date">
-                    <p> <b> Actualizado: </b>19 Julio 23:45</p>
+                    <p> <b> Actualizado hoy: </p></b><span id="current_date"></span>
+                        <script>
+                        document.getElementById("current_date").innerHTML = Date();
+                        </script></p>
                 </div>
-            </div>
+                <script src="./backup.js">
+                    
+                </script>
+                
+                            </div>
                 </section>
                
                   
             </section>
             <section class="main-product-detail">
-                <span class="product-detail--batata-logo"></span>
+                <span class="product-detail--blockchain-logo"></span>
                 <div class="product-detail--title">
                     <h2>Creamos un producto sin comparación. </h2>
                     <p>Confianble y diseñado para su uso diario.</p>
