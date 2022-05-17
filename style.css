@@ -553,3 +553,7 @@ footer .left ul {
     background-position: center;
     background-repeat: no-repeat;
 }
+footer img {
+    width: 71px;
+    height: 81px;
+}
