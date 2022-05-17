@@ -17,6 +17,7 @@
     --secondary-blue: #003b79;
     --terciary-blue: #006aaa;
     --light-blue: #2edbdb;
+    
 }
 * { 
     box-sizing: border-box;
@@ -36,7 +37,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #272180e3 100%);
+    background-color: #040d14;
 }
 header img {
     width: 84px;
@@ -169,6 +170,7 @@ main {
     line-height: 1.9rem;
     color: var(--grey);
     background-color: var(--just-white);
+
 }
 .currency-table--container .table__top-left {
     border-radius: 15px 0 0 0;
@@ -230,7 +232,7 @@ main {
    min-width: 320px;
    height: auto;
    padding: 20px 10px;
-   background-color:var(--warm-black);
+   background-color:#040d14;
 }
 .product-detail--blockchain-logo {
     position: absolute;
@@ -270,7 +272,7 @@ main {
     height: 150px;
     margin: 15px auto;
     padding: 15px;
-    background-color:var(--black);
+    background-color:#0d1922;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
@@ -510,4 +512,23 @@ footer .left ul {
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
-
+.bitcoin-logo {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("./assets/img/bitcoinlogo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ethereum-logo {
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    margin-left: -1px;
+    background-image: url("./assets/img/ethereum3649.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
