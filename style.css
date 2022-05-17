@@ -40,9 +40,9 @@ header {
     background-color: #040d14;
 }
 header img {
-    width: 84px;
-    height: 84px;
-    margin-top: 60px;
+    width:100px;
+    height:100px;
+    margin-top: 32px;
     align-self: center;
 }
 .header--title-container {
@@ -50,7 +50,7 @@ header img {
     min-width: 288px;
     max-width: 900px;
     height: 218px;
-    margin-top: 40px;
+    margin-top: 12px;
     text-align: center;
     align-self: center;
 }
@@ -62,7 +62,7 @@ header img {
     font-weight: lighter;
 }
 .header--title-container p {
-    margin-top: 25px;
+    margin-top: 59px;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -269,49 +269,50 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    height: 170px;
     margin: 15px auto;
     padding: 15px;
     background-color:#0d1922;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product-detail--card .clock-icon {
+.product-detail--card .economic-icon {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 78px;
+    height: 51px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/clock.svg");
+    margin-left: -10px;
+    background-image: url("./assets/icons/economic-icon.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.product-detail--card .eye-icon {
+.product-detail--card .politic-icon {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-    background-image: url("./assets/icons/eye.svg");
+    width: 45px;
+    height: 61px;
+    margin-bottom: 5px;
+    background-image: url("./assets/icons/politic-icon.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.product-detail--card .dollar-icon {
+.product-detail--card .sotial-icon {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 57px;
+    height: 51px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/dollar-sign.svg");
+    background-image: url("./assets/icons/sotial-icon.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.product-detail--card .check-icon {
+.product-detail--card .cultural-icon {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 58px;
+    height: 49px;
     margin-bottom: 10px;
-    background-image: url("./assets/icons/check-circle.svg");
+    background-image: url("./assets/icons/cultural-icon.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -524,10 +525,30 @@ footer .left ul {
 }
 .ethereum-logo {
     display: inline-block;
-    width: 24px;
+    width: 15px;
     height: 15px;
     margin-left: -1px;
     background-image: url("./assets/img/ethereum3649.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tether-logo {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: -1px;
+    background-image: url("./assets/img/tether-usdt-logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bnb-logo {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: -1px;
+    background-image: url("./assets/img/Binance-coin-bnb-logo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
