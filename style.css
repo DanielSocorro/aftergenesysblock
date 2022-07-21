@@ -92,7 +92,7 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg');
+    background-image: url('./assets/img/down-arrow.svg');
 }
 main {
     width: 100%;
@@ -131,18 +131,18 @@ main {
     color: var(--secondary-blue);
 }
 .main-exchange-container p {
-    margin-bottom: 6px;
+    margin-bottom: -6px;
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: #757575;
+    
 }
 .main-currency-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin:  77px auto;
+    margin:  113px auto;
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table--title {
@@ -221,7 +221,7 @@ main {
 }
 .currency-table--date p {
     font-size: 1.3rem;
-    line-height: 1.8rem;
+    line-height: 5rem;
     font-weight: 500;
     color: var(--warm-black);
 }
@@ -514,30 +514,34 @@ footer .left ul {
     scroll-snap-type: x proximity;
 }
 .bitcoin-logo {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
+    display: flex;
+    width: 22px;
+    height: 22px;
+    margin-left: 13px;
     background-image: url("./assets/img/bitcoinlogo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: -10px;
+    margin-bottom: -20px;
 }
 .ethereum-logo {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: -1px;
-    background-image: url("./assets/img/ethereum3649.jpg");
+    width: 21px;
+    height: 21px;
+    margin-left: -73px;
+    margin-top: -8px;
+    margin-bottom: 6px;
+    background-image: url("./assets/img/eth-icon.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .tether-logo {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: -1px;
+    width: 22px;
+    height: 22px;
+    margin-left: -72px;
     background-image: url("./assets/img/tether-usdt-logo.png");
     background-size: cover;
     background-position: center;
@@ -545,9 +549,11 @@ footer .left ul {
 }
 .bnb-logo {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: -1px;
+    width: 22px;
+    height: 22px;
+    margin-left: -71px;
+    margin-top: -15px;
+    margin-bottom: 5px;
     background-image: url("./assets/img/Binance-coin-bnb-logo.png");
     background-size: cover;
     background-position: center;
@@ -557,5 +563,26 @@ footer img {
     width: 71px;
     height: 81px;
 }
+.main-exchange-container .bit {
+    font-size: 1.9rem;
+    margin-top: 1px;
+    margin-left: 28px;
+}
 
+.main-exchange-container .eth {
+    margin-top: -27px;
+    margin-left: 28px;
+    margin-bottom: -6px;
+    font-size: 1.6rem;
+}
 
+.main-exchange-container .tet {
+    font-size: 1.6rem;
+    margin-top: -24px;
+    margin-left: 14px;
+}
+.main-exchange-container .bn {
+    font-size: 1.6rem;
+    margin-top: -27px;
+
+}

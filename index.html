@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AftergenesisBlock</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/ico" sizes="32x32" href="/assets/img/favicon.ico">
+
     <link rel="stylesheet" href="./css/tablet.css"z media="(min-width: 930px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +24,7 @@
             <p>The next step into the history of mankind.
             </p>
       
-            <a href="#history" class="header--button">know the story<span></span></a>
+            <a href="#history" class="header--button">know the story <span></span></a>
         </div>
     </header>
         <main>
@@ -42,29 +44,31 @@
                 <div  class="currency-table--container">
                     <table>
                         <tr>
-                             
                             <td class="table__top-left">
-                            <span class="bitcoin-logo"></span>Bitcoin
+                                <span class="bitcoin-logo"></span>
+                                <p class="bit">Bitcoin</p>
                             <td class="table__top-right table__right">
-                                $<span id="bitcoin"></span> 
-                               </td>
-                        </tr>
-                        <tr>
+                                $<span id="bitcoin"></span>
+                            </td>
+                            </tr>
+                            <tr>
                             
-                            <td><span class="ethereum-logo">        </span>Etherium</td>
-                            <td class="table__right">$           <span id="ethereum"></span> </td>
-                        </tr>
-                        <tr>
-                            <td><span class="tether-logo">          </span>Tether</td>
-                            <td class="table__right">$              <span id="tether"></span></td>
-                        </tr>
-                        <tr>
-                            <td class="table__bottom-left">     <span class="bnb-logo">                 </span>BNB</td>
-                            <td class="table__bottom-right table__right">$                      <span id="binancecoin"></span></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="currency-table--date">
+                                <td>
+                                <span class="ethereum-logo"></span>
+                                   <p class="eth">Etherium</td></p> 
+                                <td class="table__right">$ <span id="ethereum"></span> </td>
+                            </tr>
+                            <tr>
+                                <td><span class="tether-logo"> </span><p class="tet">Tether</p></td>
+                                <td class="table__right">$ <span id="tether"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left"> <span class="bnb-logo"> </span><p class="bn">BNB</p></td>
+                                <td class="table__bottom-right table__right">$ <span id="binancecoin"></span></td>
+                            </tr>
+                            </table>
+                            </div>
+                            <div class="currency-table--date">
                     <p> <b> Updated today:</p></b><span id="current_date"></span>
                         <script>
                         document.getElementById("current_date").innerHTML = Date();
@@ -124,37 +128,10 @@
             </section>
             <section id="plans" class="main-plans-container">
                 <div class="plans--title">
-                    <h2>choose the best plans that suits you.</h2>
-                    <p>any platform is given you full access to out platform.
+                    <h2>choose what is the best to you</h2>
+                    <p>the decition is yours.
                     </p>
                 </div>
-                <section class="plans-container--slider">
-                    <article class="plans-container--card">
-                <div class="plan-info-container">
-                    <h3 class="plan-card--title">anual Payment</h3>
-                    <p class="plan-card--price"><span>$</span>99</p>
-                    <p class="plan-card--saving">* Save $129 purchasing montly plan.</p>
-                    <button class="plan-card--ca">choose this <span></span></button>
-                </div>
-                    </article>
-                    <article class="plans-container--card">
-                        <p class="recommended">Recommended</p>
-                <div class="plan-info-container">
-                    <h3 class="plan-card--title">Anual Payment</h3>
-                    <p class="plan-card--price"><span>$</span>99</p>
-                    <p class="plan-card--saving">*Save $129 purchasing montly plan.</p>
-                    <button class="plan-card--ca">choose this <span></span></button>
-                </div>
-                    </article>
-                    <article class="plans-container--card">
-                <div class="plan-info-container">
-                    <h3 class="plan-card--title">Anual Payment</h3>
-                    <p class="plan-card--price"><span>$</span>99</p>
-                    <p class="plan-card--saving">*Save $129 purchasing montly plan.</p>
-                    <button class="plan-card--ca">choose this <span></span></button>
-                </div>
-                    </article>
-                </section>
             </section>
         </main>
         <footer>
@@ -171,17 +148,3 @@
         </footer>
 </body>
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
