@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/ico" sizes="32x32" href="/assets/img/favicon.ico">
 
-    <link rel="stylesheet" href="./css/tablet.css"z media="(min-width: 930px)">
+    <link rel="stylesheet" href="./css/tablet.css" z media="(min-width: 930px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+
 <body>
     <header>
         <img src="./assets/img/logo-aftergenesis-block.svg" alt="logo-aftergenesisblock">
@@ -23,128 +28,140 @@
             </h1>
             <p>The next step into the history of mankind.
             </p>
-      
+
             <a href="#history" class="header--button">know the story <span></span></a>
         </div>
     </header>
-        <main>
-            <section class="main-exchange-container">
-                <div class="backgroundImg"></div>
-                <div class="main-exchange-container--title">
-                    <h2>The history of the revolutionary tecnology that 
-                        could change it ALL.</h2>
-                    <p>Principal CryptoCurrencies information in real time.
-                    </p>
-                </div>
-                
-                <section class="main-tables-container">
+    <main>
+        <section class="main-exchange-container">
+            <div class="backgroundImg"></div>
+            <div class="main-exchange-container--title">
+                <h2>The history of the revolutionary tecnology that
+                    could change it ALL.</h2>
+                <p>Principal CryptoCurrencies information in real time.
+                </p>
+            </div>
+
+            <section class="main-tables-container">
                 <div class="main-currency-table">
                     <p class="currency-table--title">Cryptocoins</p>
-               
-                <div  class="currency-table--container">
-                    <table>
-                        <tr>
-                            <td class="table__top-left">
-                                <span class="bitcoin-logo"></span>
-                                <p class="bit">Bitcoin</p>
-                            <td class="table__top-right table__right">
-                                $<span id="bitcoin"></span>
-                            </td>
+
+                    <div class="currency-table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">
+                                    <span class="bitcoin-logo"></span>
+                                    <p class="bit">Bitcoin</p>
+                                <td class="table__top-right table__right">
+                                    $ <span id="bitcoin"></span>
+                                </td>
                             </tr>
                             <tr>
-                            
+
                                 <td>
-                                <span class="ethereum-logo"></span>
-                                   <p class="eth">Etherium</td></p> 
+                                    <span class="ethereum-logo"></span>
+                                    <p class="eth">Etherium
+                                </td>
+                                </p>
                                 <td class="table__right">$ <span id="ethereum"></span> </td>
                             </tr>
                             <tr>
-                                <td><span class="tether-logo"> </span><p class="tet">Tether</p></td>
+                                <td><span class="tether-logo"> </span>
+                                    <p class="tet">Tether</p>
+                                </td>
                                 <td class="table__right">$ <span id="tether"></span></td>
                             </tr>
                             <tr>
-                                <td class="table__bottom-left"> <span class="bnb-logo"> </span><p class="bn">BNB</p></td>
+                                <td class="table__bottom-left"> <span class="bnb-logo"> </span>
+                                    <p class="bn">BNB</p>
+                                </td>
                                 <td class="table__bottom-right table__right">$ <span id="binancecoin"></span></td>
                             </tr>
-                            </table>
-                            </div>
-                            <div class="currency-table--date">
-                    <p> <b> Updated today:</p></b><span id="current_date"></span>
+                        </table>
+                    </div>
+                    <div class="currency-table--date">
+                        <p> <b> Updated today:</p></b><span id="current_date"></span>
                         <script>
-                        document.getElementById("current_date").innerHTML = Date();
-                        </script></p>
+                            document.getElementById("current_date").innerHTML = Date();
+                        </script>
+                        </p>
+                    </div>
+                    <script src="./api.js">
+
+                    </script>
+
                 </div>
-                <script src="./backup.js">
-                    
-                </script>
+            </section>
+
+
+        </section>
+        <section id="history" class="main-product-detail">
+            <span class="product-detail--blockchain-logo"></span>
+            <div class="product-detail--title">
+                <h2>Go deep in her history to be aware of the
+                    upcoming changes. </h2>
+                <p>don't take anything FOR GRANTED.</p>
+            </div>
+            <section class="product-cards--container">
                 
-                            </div>
-                </section>
-               
-                  
-            </section>
-            <section id="history" class="main-product-detail">
-                <span class="product-detail--blockchain-logo"></span>
-                <div class="product-detail--title">
-                    <h2>Go deep in her history to be aware of the
-                         upcoming changes. </h2>
-                    <p>don't take anything FOR GRANTED.</p>
-                </div>
-                    <section class="product-cards--container">
-                        <article class="product-detail--card">
-                            <span class="economic-icon"></span>
-                            <p class="product--card-title">Economic Changes.</p>
-                            <p class="product--card-body">You'll understand what changes
-                                with the implementation of the blockchain in our global economy. 
-                            </p>
-                        </article>
-                        <article class="product-detail--card">
-                            <span class="politic-icon"></span>
-                            <p class="product--card-title">Politic Changes.</p>
-                            <p class="product--card-body">The present dificulties in
-                                the diferent countries in Latin America and the possibles 
-                                solutions. 
-                            </p>
-                        </article>
-                        <article class="product-detail--card">
-                            <span class="sotial-icon"></span>
-                            <p class="product--card-title">Social Changes.</p>
-                            <p class="product--card-body">How it will modify the 
-                                interaction between citizens both regional and globally.
-                            </p>
-                        </article>
-                        <article class="product-detail--card">
-                            <span class="cultural-icon"></span>
-                            <p class="product--card-title">Cultural Changes.</p>
-                            <p class="product--card-body">What customs will remain
-                                in the past as well as old technologies.
-                            </p>
-                        </article>
-                       
-                    </section>
-            </section>
-            <section class="bitcoin-img-container">
-                <h2>meet her today.</h2>
-            </section>
-            <section id="plans" class="main-plans-container">
-                <div class="plans--title">
-                    <h2>choose what is the best to you.</h2>
-                    <p>the desition is yours.
+                <article class="product-detail--card" onclick="location.href='economics.html'">
+                    
+                    <span class="economic-icon"></span>
+                    <p class="product--card-title">Economic Changes.</p>
+                    <p class="product--card-body">You'll understand what changes
+                        with the implementation of the blockchain in our global economy.
                     </p>
-                </div>
+                
+                </article>
+       
+                <article class="product-detail--card">
+                    <span class="politic-icon"></span>
+                    <p class="product--card-title">Politic Changes.</p>
+                    <p class="product--card-body">The present dificulties in
+                        the diferent countries in Latin America and the possibles
+                        solutions.
+                    </p>
+                </article>
+                <article class="product-detail--card">
+                    <span class="sotial-icon"></span>
+                    <p class="product--card-title">Social Changes.</p>
+                    <p class="product--card-body">How it will modify the
+                        interaction between citizens both regional and globally.
+                    </p>
+                </article>
+                <article class="product-detail--card">
+                    <span class="cultural-icon"></span>
+                    <p class="product--card-title">Cultural Changes.</p>
+                    <p class="product--card-body">What customs will remain
+                        in the past as well as old technologies.
+                    </p>
+                </article>
+
             </section>
-        </main>
-        <footer>
-            <section class="left">
-                <ul>
-                    <li><a href="#">Linked In</li>
-                    <li><a href="#">Twitter</li>
-                    <li><a href="#">Facebook</li>
-                </ul>
-            </section>
-            <section class="right">
-                <img src="./assets/img/logo-aftergenesis-block.png" alt="Logo de blockchain 2022">
-            </section>
-        </footer>
+        </section>
+        <section class="bitcoin-img-container">
+            <h2>meet her today.</h2>
+        </section>
+        <section id="plans" class="main-plans-container">
+            <div class="plans--title">
+                <h2>choose what is the best to you.</h2>
+                <p>the desition is yours.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linked In</li>
+                <li><a href="#">Twitter</li>
+                <li><a href="#">Facebook</li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/img/logo-aftergenesis-block.png" alt="Logo de blockchain 2022">
+        </section>
+    </footer>
 </body>
+
 </html>

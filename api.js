@@ -1,9 +1,9 @@
-var btc = document.getElementById("bitcoin");
-var eth = document.getElementById("ethereum");
-var usdt = document.getElementById("tether");
-var bnb = document.getElementById("binancecoin");
-//var date = document.getElementById("current_date");
-var settings = {
+const btc = document.getElementById("bitcoin");
+const eth = document.getElementById("ethereum");
+const usdt = document.getElementById("tether");
+const bnb = document.getElementById("binancecoin");
+//const date = document.getElementById("current_date");
+const settings = {
     "async": true,
     "scrossDomain": true,
     "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Ctether%2Cbinancecoin&vs_currencies=usd",
