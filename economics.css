@@ -7,6 +7,20 @@ body {
 p {
     color: aliceblue;
 }
+.back-button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    left: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-image: url("./assets/icons/return-arrow.svg");
+    background-repeat: no-repeat;
+    background-color: #040d14;
+
+}
 
 .main {
 
@@ -18,6 +32,7 @@ p {
     line-height: 1.8rem;
     color: #808080;
 }
+
 .main .economic-icon {
     display: block;
     width: 100%;
@@ -27,6 +42,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .economic-changes {
     background-color: #0d1922;
     border-radius: 5px;
@@ -34,15 +50,18 @@ p {
     padding: 50px;
     margin: 100px;
 }
+
 .product--card-title {
     text-align: center;
     margin-top: 10px;
 }
+
 @media only screen and (max-width: 600px) {
     .main {
         font-size: 1.2rem;
         line-height: 1.5rem;
     }
+
     .economic-changes {
         padding: 20px;
         margin: 40px;
