@@ -7,7 +7,22 @@ body {
 p {
     color: aliceblue;
 }
-
+.back-button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    left: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-image: url("./assets/icons/return-arrow.svg");
+    background-repeat: no-repeat;
+    background-color: #040d14;
+}
+.back-button:hover {
+    cursor: pointer;
+}
 .main {
 
     width: 100%;
