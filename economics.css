@@ -19,7 +19,9 @@ p {
     background-image: url("./assets/icons/return-arrow.svg");
     background-repeat: no-repeat;
     background-color: #040d14;
-
+}
+.back-button:hover {
+    cursor: pointer;
 }
 
 .main {
